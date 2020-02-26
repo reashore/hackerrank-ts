@@ -15,7 +15,7 @@ function reverseString(s: string): void {
   console.log(reversed);
 }
 
-export default function solveProblem2(): void {
+export default function solveProblem2() : void {
   const s = "1234";
   reverseString(s);
 }

@@ -20,7 +20,7 @@ function isVowel(c: string): boolean {
   return vowels.includes(c);
 }
 
-export default function solveProblem1(): void {
+export default function solveProblem1() : void {
   const input: string = "javascriptloops";
 
   printVowelsThenConsonants(input);
