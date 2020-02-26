@@ -1,7 +1,11 @@
-import * as _ from "lodash";
+// import solveProblem1 from "./problem1";
+import solveProblem2 from "./problem2";
+import solveProblem3 from "./problem3";
 
-console.clear();
-console.log("Hello world!");
+function main(): void {
+  // solveProblem1();
+  solveProblem2();
+  solveProblem3();
+}
 
-const version = _.VERSION;
-console.log(version);
+main();
