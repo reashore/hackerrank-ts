@@ -1,5 +1,5 @@
-function getGrade(score: number) {
-  let grade;
+function getGrade(score: number): string {
+  let grade: string;
 
   if (25 < score && score <= 30) {
     grade = "A";
@@ -13,12 +13,14 @@ function getGrade(score: number) {
     grade = "E";
   } else if (0 < score && score <= 5) {
     grade = "F";
+  } else {
+    grade = "X";
   }
 
   return grade;
 }
 
-export default function solveProblem3() : void {
-  const grade = getGrade(11);
+export default function solveProblem3(): void {
+  const grade: string = getGrade(11);
   console.log(grade);
 }

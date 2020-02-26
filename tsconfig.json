@@ -5,6 +5,7 @@
     "module": "commonjs",
     "sourceMap": true,
     "strict": true,
+    "declaration": true,
     "lib": ["es2018", "dom"]
   },
   "include": ["src"]
