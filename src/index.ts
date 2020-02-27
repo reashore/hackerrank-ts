@@ -7,7 +7,8 @@
 // import solveProblem07 from "./problem07";
 // import solveProblem08 from "./problem08";
 // import solveProblem09 from "./problem09";
-import solveProblem10 from "./problem10";
+// import solveProblem10 from "./problem10";
+import solveProblem11 from "./problem11";
 
 function main(): void {
   // solveProblem01();
@@ -19,7 +20,8 @@ function main(): void {
   // solveProblem07();
   // solveProblem08();
   // solveProblem09();
-  solveProblem10();
+  // solveProblem10();
+  solveProblem11();
 }
 
 main();
