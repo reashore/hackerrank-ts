@@ -27,13 +27,14 @@ function getMaxBitwiseAnd(n: number, k: number): number {
   return maxAnd;
 }
 
-export default function solveProblem10(): void {
+export default function solveProblem11(): void {
   let n: number = 5;
   let k: number = 2;
   let max: number = getMaxBitwiseAnd(n, k);
   console.log(n);
   console.log(k);
   console.log(max);
+  console.log();
 
   n = 8;
   k = 5;
@@ -41,6 +42,7 @@ export default function solveProblem10(): void {
   console.log(n);
   console.log(k);
   console.log(max);
+  console.log();
 
   n = 2;
   k = 2;
@@ -48,4 +50,21 @@ export default function solveProblem10(): void {
   console.log(n);
   console.log(k);
   console.log(max);
+  console.log();
+
+  n = 9;
+  k = 2;
+  max = getMaxBitwiseAnd(n, k);
+  console.log(n);
+  console.log(k);
+  console.log(max);
+  console.log();
+
+  n = 8;
+  k = 3;
+  max = getMaxBitwiseAnd(n, k);
+  console.log(n);
+  console.log(k);
+  console.log(max);
+  console.log();
 }
