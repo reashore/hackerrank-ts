@@ -15,7 +15,7 @@ function getCount(array: Point[]): number {
   return count;
 }
 
-export default function solveProblem6(): void {
+export default function solveProblem06(): void {
   const data: Point[] = [
     {
       x: 1,

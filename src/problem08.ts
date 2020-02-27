@@ -10,7 +10,7 @@ class Polygon{
     }
 }
 
-export default function solveProblem8(): void {
+export default function solveProblem08(): void {
   const sides: number[] = [3, 4, 5];
   const polygon: Polygon = new Polygon(sides);
 

@@ -17,7 +17,7 @@ function getSecondLargest(array : number[]) : number {
   return secondLargest;
 }
 
-export default function solveProblem5() {
+export default function solveProblem05() {
   let array = [2, 3, 6, 6, 5];
   let secondLargest = getSecondLargest(array);
   console.log(secondLargest);

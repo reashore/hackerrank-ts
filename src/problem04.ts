@@ -49,7 +49,7 @@ function getLetter(s: string): string {
   return result;
 }
 
-export default function solveProblem4(): void {
+export default function solveProblem04(): void {
   const input = "adfgt";
   const grade = getLetter(input);
   console.log(grade);

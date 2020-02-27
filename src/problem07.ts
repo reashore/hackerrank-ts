@@ -19,7 +19,7 @@ function getRectangle(width: number, length: number): Rectangle {
   return rectangle;
 }
 
-export default function solveProblem7(): void {
+export default function solveProblem07(): void {
   const width: number = 4;
   const length: number = 5;
   const rectangle: Rectangle = getRectangle(width, length);

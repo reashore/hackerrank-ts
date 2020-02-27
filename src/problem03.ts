@@ -20,7 +20,7 @@ function getGrade(score: number): string {
   return grade;
 }
 
-export default function solveProblem3(): void {
+export default function solveProblem03(): void {
   const grade: string = getGrade(11);
   console.log(grade);
 }
