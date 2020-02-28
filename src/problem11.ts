@@ -1,8 +1,8 @@
 function getMaxBitwiseAnd(n: number, k: number): number {
   let maxAnd: number = 0;
 
-  for (let n1 = 0; n1 < n; n1++) {
-    for (let n2 = 0; n2 < n; n2++) {
+  for (let n1 = 1; n1 <= n; n1++) {
+    for (let n2 = 1; n2 <= n; n2++) {
       const condition: boolean = n1 < n2;
 
       if (!condition) {
